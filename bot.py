@@ -22,7 +22,7 @@ dp = Dispatcher(bot, storage=MemoryStorage())
 
 @dp.message_handler()
 async def lubboy(msg: types.Message):
-    unli = 'aouie'
+    unli = 'aouieAOUIE'
     count = 0
     s = msg.text
     for i in s:
