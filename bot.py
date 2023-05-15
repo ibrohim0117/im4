@@ -7,7 +7,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '5525595393:AAGtwsPYK9y6bBduaeeVxtF27MnrEJbUcDA'
+API_TOKEN = os.getenv("TOKEN")
 bot = Bot(API_TOKEN)
 storage = MemoryStorage()
 
